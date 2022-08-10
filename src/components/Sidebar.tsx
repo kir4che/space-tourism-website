@@ -1,10 +1,9 @@
 import { slide as Menu } from 'react-burger-menu'
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Sidebar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const location = useLocation();
 
   return (
     <Menu
@@ -13,12 +12,12 @@ const Sidebar: React.FC = () => {
       right
       isOpen={false}
       onStateChange={() => setIsMenuOpen(!isMenuOpen)}>
-      <Link to="/"><b>00</b> Home</Link>
+      <Link to="/home"><b>00</b> Home</Link>
       <Link to="/destination"><b>01</b> Destination</Link>
       <Link to="/crew"><b>02</b> Crew</Link>
       <Link to="/technology"><b>03</b> Technology</Link>
     </Menu>
   );
 }
-// hidden mobile:inline mobile: pr - 6
+
 export default Sidebar;
