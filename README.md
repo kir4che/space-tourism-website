@@ -1,7 +1,7 @@
 # Space Tourism Website
 
 ## 項目展示
-[Demo](https://space-tourism-website-tau.vercel.app/)（2022.08.06 完成）
+[Demo](https://space-tourism-website-lake.vercel.app/)（2022.08.06 完成）
 
 ## 功能說明
 多頁式航空旅遊網站
