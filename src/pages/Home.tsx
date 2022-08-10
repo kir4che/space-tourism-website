@@ -5,7 +5,7 @@ import Header from '../components/Header';
 
 const Home: React.FC = () => {
   return <>
-    <div className='h-screen	bg-desktop-home bg-fixed bg-no-repeat bg-cover tablet:h-full tablet:bg-tablet-home tablet:bg-center mobile:h-screen mobile:bg-mobile-home mobile:bg-bottom'>
+    <div className='h-screen bg-desktop-home bg-fixed bg-no-repeat bg-cover tablet:h-full tablet:bg-tablet-home tablet:bg-center mobile:h-screen mobile:bg-mobile-home mobile:bg-bottom'>
       <Header />
       <div className='flex justify-around items-end mt-40 tablet:flex-col tablet:justify-center tablet:items-center tablet:mt-12 tablet:text-center mobile:-mt-8 mobile:scale-75'>
         <div>
