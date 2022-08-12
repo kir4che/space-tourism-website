@@ -7,10 +7,10 @@ const Header: React.FC = () => {
 
   return (
     <header className='relative flex justify-between items-center pt-6'>
-      <Link to="/"><img className='h-12 pl-6 mobile:h-9' src='../assets/shared/logo.svg' alt='logo' /></Link>
+      <Link to="/home"><img className='h-12 pl-6 mobile:h-9' src='../assets/shared/logo.svg' alt='logo' /></Link>
       <hr className='absolute left-36 w-3/4 opacity-40 tablet:hidden' />
       <nav className='px-28 py-6 space-x-8 bg-white/5 backdrop-blur-md shadow text-white tablet:px-16 tablet:space-x-4 mobile:hidden'>
-        <Link to="/" className={`nav-btn ${location.pathname === '/home' ? 'nav-active-btn' : ''}`}>
+        <Link to="/home" className={`nav-btn ${location.pathname === '/home' ? 'nav-active-btn' : ''}`}>
           <b className='tablet:hidden'>00</b> Home
         </Link>
         <Link to="/destination" className={`nav-btn ${location.pathname === '/destination' ? 'nav-active-btn' : ''}`}>
