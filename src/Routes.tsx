@@ -8,7 +8,7 @@ import Technology from './pages/Technology';
 
 const routeConfig: RouteObject[] = [
   {
-    path: '/home',
+    path: '/',
     element: <Home />,
   },
   {
