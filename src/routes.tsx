@@ -6,7 +6,7 @@ import Destination from './pages/Destination';
 import Crew from './pages/Crew';
 import Technology from './pages/Technology';
 
-const routeConfig: RouteObject[] = [
+const routes: RouteObject[] = [
   {
     path: '/',
     element: <Home />,
@@ -25,4 +25,4 @@ const routeConfig: RouteObject[] = [
   },
 ]
 
-export default routeConfig;
+export default routes;
